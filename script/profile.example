@@ -1,0 +1,2 @@
+export CONTEXT_ORG="${CONTEXT_ORG:-immanent}"
+export SSH_AUTH_SOCK=/Users/defn/.gnupg/S.gpg-agent.ssh; export SSH_AUTH_SOCK;
