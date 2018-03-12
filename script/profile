@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+pth_site_profile="$(cd -P -- "${BASH_SOURCE%/*}/.." && pwd -P)/script/profile.site"
+
+if [[ -f "$pth_site_profile" ]]; then
+  source "$pth_site_profile"
+fi
